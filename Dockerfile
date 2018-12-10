@@ -9,5 +9,7 @@ COPY yarn.lock /app/
 COPY brigade.js /app/brigade.js
 RUN yarn install
 
-COPY start.sh /app/
-CMD ["./start.sh"]
+CMD ["node", "src/index.js"]
+
+#COPY start.sh /app/
+#CMD ["./start.sh"]

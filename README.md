@@ -46,7 +46,7 @@ $ brig project create
 Auto-generated a Shared Secret: "Cmwbe42gh1P3gD9ShFB3ANM9"
 ? Configure GitHub Access? No
 ? Configure advanced options Yes
-? Custom VCS sidecar node-demo:edge
+? Custom VCS sidecar alpine
 ? Build storage size 
 ? Build storage class 
 ? Job cache storage class 
@@ -105,6 +105,8 @@ prestart: loading script from /etc/brigade/script
 [brigade:k8s] default/ftest-01cy7zx3q4gvtemwj9f89hkz59 phase Running
 done
 ```
+
+> You can check the build logs using [`brigadeterm`](https://github.com/slok/brigadeterm).
 
 ## Questions
 
